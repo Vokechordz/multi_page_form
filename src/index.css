@@ -1,0 +1,708 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  margin-left: 15%;
+  background-color: lavender;
+}
+
+.formdiv {
+  height: 90%;
+  border-radius: 15px;
+  width: 90%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  display: flex;
+}
+
+.bgsidebardesktopsvg  {
+  height: 500px;
+  border-radius: 5px;
+  margin: 5.5%;
+}
+
+.bgsidebarmobilesvg {
+  position: absolute;
+  left: -99999999px;
+}
+
+.divlist {
+  position: relative;
+}
+
+.steplist {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  border-radius: 5px;
+  margin: 5.5%;
+  width: 241px;
+
+}
+
+.unorderedlist {
+  margin-top: 10%;
+  list-style-type: none;
+  margin-right: 9%;
+}
+
+.unorderedlist li {
+  margin-bottom: 15%;
+}
+
+.firstcircle {
+  display: flex;
+  flex-direction: row;
+}
+
+.numberone {
+  border-radius: 50%;
+  border:  hsla(0, 0%, 100%,0.9) solid 1px;
+  padding: 5px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%,0.9);
+  font-weight: bold;
+}
+.numberonee {
+  border-radius: 50%;
+  border:  hsla(0, 0%, 100%,0.9) solid 1px;
+  padding: 5px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: hsla(0, 0%, 100%,0.8);
+  color:hsl(213, 96%, 18%) ;
+}
+
+
+
+.stepinfo {
+border: white;
+margin-left: 5%;
+}
+
+.stepinfo h6 {
+  margin-bottom: 4px;
+  color: hsla(0, 0%, 100%,0.5);
+}
+
+.stepinfo > p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: hsla(0, 0%, 100%,0.9);
+}
+
+.seconddiv {
+  margin: 5% 9% 3% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1250px;
+  margin-left: 15%;
+  padding-left: 5%;
+}
+
+.innerdiv {
+  width: 100%;
+}
+
+.buttondiv {
+  margin-top: auto;
+}
+
+.buttondiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+}
+
+.nextbutton {
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  font-weight: bold;
+  border-radius: 9px;
+  padding: 0 12px;
+  margin-left: auto;
+  border: none;
+}
+
+.submitbutton {
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  font-weight: bold;
+  border-radius: 9px;
+  padding: 0 12px;
+  margin-left: auto;
+  border: none;
+}
+
+.backbutton {
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  font-weight: bold;
+  border-radius: 9px;
+  padding: 0 12px;
+  margin-right: auto;
+  border: none;
+}
+
+.backbutton:hover {
+  background-color: hsla(213, 96%, 18%,0.9);
+  cursor: pointer;
+}
+.nextbutton:hover {
+  background-color: hsla(213, 96%, 18%,0.9);
+  cursor: pointer;
+}
+
+.submitbutton:hover {
+  background-color: hsla(213, 96%, 18%,0.9);
+  cursor: pointer;
+}
+
+.PersonalInfo p {
+  color: hsla(213, 96%, 18%,0.5);
+  margin-top: 5px;
+}
+
+.PersonalInfoForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.PersonalInfoForm label {
+  margin-bottom: 10px;
+  color: hsl(213, 96%, 18%);
+  font-weight: bolder;
+}
+
+.PersonalInfoForm input[type=text] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid hsla(213, 96%, 18%,0.4) ;
+}
+
+.SelectPlan h1 {
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+
+.SelectPlan p {
+  
+  margin-top: 5px;
+}
+
+
+
+
+
+.Addons h1 {
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+
+.padd {
+  color: hsla(213, 96%, 18%,0.5);
+  margin-top: 5px;
+}
+
+.Addonsform {
+  margin-top: 40px;
+}
+
+.checkboxdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  border: 1px solid  hsla(213, 96%, 18%,0.5);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+p.mone {
+  margin-left: auto;
+  color:  hsl(213, 96%, 18%);
+}
+
+.checkboxdiv input {
+  transform: scale(1.3);
+}
+
+.labelp {
+  margin-left: 25px;
+}
+
+.labelp p {
+  color: hsla(213, 85%, 63%, 0.5);
+}
+
+.labelp label {
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+
+.planp {
+  color: hsla(213, 96%, 18%,0.599);
+}
+
+.planpp {
+  color: hsl(213, 96%, 18%);
+}
+
+.planwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arcadeall {
+  display: flex;
+  flex-direction: column;
+  border: 1.3px solid  hsla(213, 96%, 18%,0.3) ;
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  
+  background-color: white;
+  position: relative;
+  transition: all 0.1s;
+}
+
+
+.arcadeall:hover {
+  transform: scale(1.01);
+}
+
+
+.radioinput {
+  position: absolute;
+  appearance: none;
+  inset: 0;
+  opacity: 0;
+}
+
+.arcadeall:has([type="radio"]:checked) {
+  background-color: lavender;
+  border: 1px solid hsla(213, 96%, 18%,0.5);
+}
+
+
+.arcadeall img {
+  width: 35px;
+  margin-right: 90px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.arcadedown {
+  margin-right: 90px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.arcadedown h5{
+  font-size: 15px;
+  margin-right: auto;
+}
+
+.arcadedown p {
+  font-size:15px ;
+  margin-right: auto;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 18px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle {
+  background-color: hsla(240, 67%, 94%,0.5 );
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(213, 96%, 18%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 9px;
+  width: 9px;
+  left: 4px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: hsl(213, 96%, 18%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(213, 96%, 18%);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.validname {
+  color: red;
+}
+
+.offscreen {
+  position: absolute;
+  left: -999999999px;
+}
+
+.summary h1 {
+  color: hsl(213, 96%, 18%);
+}
+
+.summary p {
+  margin-top: 5px;
+}
+
+.arcadediv {
+  margin-top: 50px;
+  background-color: hsla(240, 67%, 94%,0.4);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.arcadediv1 {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid hsla(213, 96%, 18%,0.5);
+}
+
+.arcadediv1 p {
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.arcadediv12 h4 {
+  color: hsl(213, 96%, 18%);
+}
+
+
+.arcadedivp {
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+
+.arcadediv2 {
+  margin-top: 10px;
+}
+
+.arcadediv2 p {
+  margin-bottom: 15px;
+}
+
+.arcadediv23 {
+  display: flex;
+}
+
+.lastp {
+  margin-left: auto;
+  color: hsl(213, 96%, 18%);
+}
+
+.lastarcadediv {
+  display: flex;
+  margin-top: 15px;
+}
+
+.lastarcadedivp {
+  margin-left: auto;
+  font-size: 20px;
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+
+.successm {
+
+  text-align: center;
+}
+
+.successm h1 {
+  font-weight: bold;
+  color: hsl(213, 96%, 18%);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.successm img {
+  height:   100px;
+  margin-top: 100px;
+}
+
+.successm p {
+  font-size: 17px;
+  letter-spacing: 0.04rem;
+  color: hsla(213, 96%, 18%,0.7);
+}
+
+
+
+@media screen and (max-width:1834px) {
+  .formdiv {
+    width: 75%;
+  }
+
+  .planwrapper {
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width:1684px) {
+  .formdiv {
+    width: 70%;
+  }
+
+  .seconddiv {
+    margin-left: 11%;
+  }
+}
+
+
+@media screen and (max-width:1483px) {
+  .formdiv {
+    width: 65%;
+  }
+
+  .arcadeall {
+    width: 130px;
+    display: flex;
+
+  }
+}
+
+
+@media screen and (max-width:1414px) {
+  .formdiv {
+    width: 62%;
+  }
+
+  .arcadeall {
+    width: 130px;
+    display: flex;
+
+  }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+  body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .formdiv {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: lavender;
+  }
+
+  .bgsidebardesktopsvg {
+    position: absolute;
+    left: -999999999px;
+  }
+
+  .bgsidebarmobilesvg {
+    position: relative;
+    left: 0;
+    width: 599px;
+    background-color: red;
+  }
+
+  .seconddiv {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    padding-top: 25px;
+    margin-top: 100px;
+    margin-left: 12%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .unorderedlist {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    margin-top: 5px;
+    margin-left: 110px;
+  }
+
+  .stepinfo {
+    position: absolute;
+    left: -999999999999px;
+  }
+
+  .firstcircle {
+    transform: scale(1.5);
+  }
+
+  .PersonalInfo {
+    padding: 15px;
+   border-radius: 170px;
+  }
+
+  .PersonalInfo h1 {
+    font-size: 23px;
+  } 
+
+  .PersonalInfo p {
+    font-size: 14px;
+  }
+
+  .PersonalInfoForm {
+    margin-top: 25px;
+  }
+
+  .PersonalInfoForm label {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .nextbutton {
+    margin-right: 10px;
+    padding: 0 12px ;
+    margin-bottom: 10px;
+  }
+
+  .backbutton {
+    margin-left: 10px;
+    padding: 0 12px ;
+    margin-bottom: 10px;
+  }
+  .submitbutton {
+    margin-left: 10px;
+    padding: 0 12px ;
+    margin-bottom: 10px;
+  }
+
+  .SelectPlan {
+    padding: 15px;
+  }
+
+  .planwrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arcadeall {
+    width: 100%;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 15px;
+  }
+
+  .arcadeall img {
+    transform: scale(1.2);
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+
+  .arcadedown {
+    margin-top: 10px;
+  }
+  .Addons {
+    padding: 15px;
+  }
+
+  .summary {
+    padding: 15px;
+  }
+
+  .successm {
+    padding: 15px;
+  }
+}
+
+
